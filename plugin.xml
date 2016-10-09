@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="org.eclipse.core.runtime.IAdaptable">
+         <action
+               class="com.qcenzo.tools.localize.popup.actions.Localize"
+               enablesFor="1"
+               icon="icon.png"
+               id="com.qcenzo.tools.localize.popup.actions.Localize"
+               label="Localize"
+               menubarPath="additions">
+         </action>
+      </objectContribution>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="Localization"
+            class="com.qcenzo.tools.localize.preferences.LocalizationPreferencePage"
+            id="com.qcenzo.tools.localize.preferences.LocalizationPreferencePage">
+      </page>
+   </extension>
+
+</plugin>

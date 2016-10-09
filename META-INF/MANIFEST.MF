@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Localize
+Bundle-SymbolicName: com.qcenzo.tools.localize; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.qcenzo.tools.localize.Activator
+Bundle-Vendor: Qcenzo
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/microsoft-translator-java-api-0.6.2-jar-with-dependencies.jar,
+ lib/baidu-fanyi-java-api.jar
