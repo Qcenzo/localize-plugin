@@ -1,6 +1,5 @@
 ## Qcenzo *localize* Eclipse Plugin ##
 2016/10/6 21:34:47 
-### Introduction ###
 ### Version ###
 1.0.0
 ### Features ###
