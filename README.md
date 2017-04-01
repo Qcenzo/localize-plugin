@@ -2,7 +2,6 @@
 2016/10/6 21:34:47 
 ### Version ###
 1.0.0
-### Features ###
 ### Views ###
 - **Preferences window**
 
