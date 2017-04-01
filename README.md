@@ -3,7 +3,7 @@
 ### Version ###
 1.0.0
 ### Features ###
-###Views ###
+### Views ###
 - **Preferences window**
 
 	![](http://www.qcenzo.com/2016/imgs/preferences.jpg)
