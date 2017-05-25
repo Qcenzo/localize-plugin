@@ -1,4 +1,4 @@
-## Qcenzo *localize* Eclipse Plugin ##
+## Qcenzo *Localize* Eclipse Plugin ##
 2016/10/6 21:34:47 
 ### Version ###
 1.0.0
